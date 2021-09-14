@@ -4063,12 +4063,12 @@ textarea {
 #site-header
   .logo-position-menu_center:not(.header-layout-fullwidth_hamburger):not(.header-layout-overlay)
   #primary-menu.no-responsive {
-  margin-left: 0;
+  margin-left: -7px;
   margin-right: 0;
 }
 
 #site-header .primary-navigation .menu-item-logo {
-  padding: 30px 50px !important;
+  padding: 5px ​28px 5px 5px;
 }
 
 #site-header .primary-navigation.responsive .menu-item-logo {
@@ -4393,7 +4393,7 @@ body.admin-bar #page.vertical-header #site-header-wrapper {
 
 .header-style-3 #primary-menu.no-responsive > li,
 .header-style-4 #primary-menu.no-responsive > li {
-  padding: 33px 3px;
+  padding: 25px 7px;
 }
 
 .header-style-3 #primary-menu.no-responsive > li.menu-item-current,
