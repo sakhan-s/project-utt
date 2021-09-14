@@ -97,7 +97,7 @@
   bottom: 0;
   z-index: 999999;
   opacity: 0.98;
-  background: #dcd9c9;
+  background-color: #F7F7F7;
 }
 
 .block-preloader.preloader,
@@ -150,8 +150,8 @@
   left: 50%;
   top: 50%;
   z-index: 1001;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: -40px 0 0 -40px;
   border-radius: 50%;
   -moz-border-radius: 50%;
@@ -184,7 +184,7 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #00bcd4;
+  border-top-color: green;
   -webkit-animation: PreloaderSpin 3s linear infinite;
   animation: PreloaderSpin 3s linear infinite;
 }
@@ -206,7 +206,7 @@
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   border: 2px solid transparent;
-  border-top-color: #a3e7f0;
+  border-top-color: green;
   -webkit-animation: PreloaderSpin 1.5s linear infinite;
   animation: PreloaderSpin 1.5s linear infinite;
 }
@@ -29909,20 +29909,20 @@ body .breadcrumbs .current {
 #page-preloader .page-preloader-spin,
 .block-preloader .page-preloader-spin,
 .preloader-spin {
-  border-top-color: #0B862D;
+  border-top-color: green;
 }
 
 #page-preloader .page-preloader-spin:before,
 .block-preloader .page-preloader-spin:before,
 .preloader-spin:before {
-  border-top-color: #00adee;
+  border-top-color: red;
 }
 
 #page-preloader .page-preloader-spin:after,
 .block-preloader .page-preloader-spin:after,
 .preloader-spin:after,
 .gem-fancybox-preloader .preloader-spin:after {
-  border-top-color: #fff;
+  border-top-color: yellow;
 }
 
 .products .product .product-inner:not(:hover) .product-info .product-title,
