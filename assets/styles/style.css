@@ -29909,7 +29909,7 @@ body .breadcrumbs .current {
 #page-preloader .page-preloader-spin,
 .block-preloader .page-preloader-spin,
 .preloader-spin {
-  border-top-color: rgb(51, 108, 180);
+  border-top-color: #0B862D;
 }
 
 #page-preloader .page-preloader-spin:before,
